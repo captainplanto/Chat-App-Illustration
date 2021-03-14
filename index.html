@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | [Chat APP CSS ILLUSTRATION]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="gradientA"></div>
+
+    <div class="gradientB"></div>
+
+    <section class="cover">
+      <main>
+        <!-------This part includes the avater, name and available to work<!------->
+        <div class="blankshape"></div>
+        <div class="profilename">
+          <img src="./images/avatar.jpg" alt="samuelimage" id="sam">
+          <h4>Samuel Green</h4>
+          <h6>Available to Walk</h6>
+        </div>
+        <!-------This part ends the avater, name and available to work<!------->
+
+        <!-------This part includes the first conversation by samuel<!------->
+        <div class="contentalign">
+          <p id="soundsgreat">That sounds great. I’d be happy with that.</p>
+          <p id="somepictures"> Could you send over some pictures of your dog, please?</p>
+          <!-------This part ends the first conversation by samuel<!------->
+
+          <!-------This part includes the responses given to samuel<!------->
+          <div class="dogspicturesContainer">
+            <div class="dog"><img src="./images/dog-image-1.jpg" id="dogA"></div>
+            <div class="dog"> <img src="./images/dog-image-2.jpg" id="dogB"></div>
+            <div class="dog"><img src="./images/dog-image-3.jpg" id="dogC"></div>
+          </div>
+          <p id="happy">Here are a few pictures. She’s a happy girl!</p>
+          <p id="make">Can you make it?</p>
+          <!-------This part ends the responses given to samuel<!------->
+
+          <!-------This part includes the second conversation by samuel<!------->
+          <div class="Samuelresponse2">
+            <p id="looks">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+           <input type="text" id="radio1">
+            <h5>30 minute walk<span>$29</span></h5>
+            <input type="text" id="radio2">
+            <h6> 1 hour walk<span>$49</span></h6>
+          </div>
+          <!-------This part ends the second conversation by samuel<!------->
+
+          <p class="typemessage">Type a message… <span class="btn">&#62;</span></p>
+        </div>
+      </main>
+    </section>
+
+    <div class="booking">
+
+      <h1>Simple booking</h1>
+
+      <h6 id="chat">Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.</h6>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">CaptainKoder</a>.
+    </div>
+  </body>
+
+</html>
